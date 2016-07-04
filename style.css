@@ -1,0 +1,96 @@
+body {
+  background-image:url("images/pompombackground.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  font-family:'Raleway', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+td {
+  padding: 0;
+  height: 166px;
+  width: 166px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bowlby One', cursive;
+  letter-spacing: 7px;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.cross{
+  height:140px;
+  width:140px;
+  position: fixed;
+}
+
+.circle {
+  height:150px;
+  width:150px;
+  position: fixed;
+}
+
+.container {
+  /*height:100%;
+  width:100%;*/
+  display: inline;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid grey;
+}
+
+button:hover {
+  color: #00BDA8;
+  cursor: pointer;
+  cursor: hand;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.box{
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  display: inline-block;
+  margin-left: -5px;
+  margin-bottom: -5px;
+  position: relative;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.gameboard{
+  height: 500px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.box:hover{
+  background-image:url("images/confetti.jpg");
+  background-size: 100%;
+  cursor: pointer;
+  cursor: hand;
+}
