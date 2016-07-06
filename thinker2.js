@@ -22,33 +22,33 @@ var box8 = document.getElementById("box8");
 var box9 = document.getElementById("box9");
 
 //winning condition- if else
-
-var win = function () {
-  if (state == box1 == box2 && box2 == box3){
-    alert();
-  }
-  else if (state == box4 == box5 && box5 == box6){
-    alert();
-  }
-  else if (state == box7 == box8 && box8 == box9){
-    alert();
-  }
-  else if (state == box1 == box4 && box4 == box7){
-    alert();
-  }
-  else if (state == box2 == box5 && box5 == box8){
-    alert();
-  }
-  else if (state == box3 == box6 && box6 == box9){
-    alert();
-  }
-  else if (state == box1 == box5 && box5 == box9){
-    alert();
-  }
-  else if (state == box3 == box5 && box5 == box7) {
-    alert();
-  }
-};
+//
+// var win = function () {
+//   if (state == box1 == box2 && box2 == box3){
+//     alert();
+//   }
+//   else if (state == box4 == box5 && box5 == box6){
+//     alert();
+//   }
+//   else if (state == box7 == box8 && box8 == box9){
+//     alert();
+//   }
+//   else if (state == box1 == box4 && box4 == box7){
+//     alert();
+//   }
+//   else if (state == box2 == box5 && box5 == box8){
+//     alert();
+//   }
+//   else if (state == box3 == box6 && box6 == box9){
+//     alert();
+//   }
+//   else if (state == box1 == box5 && box5 == box9){
+//     alert();
+//   }
+//   else if (state == box3 == box5 && box5 == box7) {
+//     alert();
+//   }
+// };
 
 
 //Start Game
